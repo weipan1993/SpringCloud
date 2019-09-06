@@ -1,0 +1,11 @@
+server:
+  port: 8762
+
+spring:
+  application:
+    name: test-service
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.240.129:8761/eureka/
