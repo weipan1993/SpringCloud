@@ -1,0 +1,9 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.240.129:8761/eureka/
+server:
+  port: 8764
+spring:
+  application:
+    name: ribbon-service
